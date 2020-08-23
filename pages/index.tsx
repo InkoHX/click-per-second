@@ -42,7 +42,7 @@ const Page: NextPage = () => {
   return (
     <div id='main'>
       <p>クリックした回数: {clickCount}</p>
-      <p>測定終了まであと: {time}秒</p>
+      <p>計測時間: {time}秒</p>
       <p>CPS: {clickPerSecond}</p>
       <button className='targetButton' onClick={clickHandler}>クリック</button>
       <Overlay display={overlay}>

@@ -2,5 +2,24 @@
   "name": "click-per-second",
   "repository": "https://github.com/InkoHX/click-per-second.git",
   "author": "InkoHX <inkohx@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^4.0.2"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0-beta.28"
+  }
 }
